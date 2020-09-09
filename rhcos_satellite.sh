@@ -45,7 +45,7 @@ hammer template create --name 'rhcos_pxe' \
   --organization 'Red Hat ICSA Team' \
   --description 'PXE template for RHCOS' \
   --operatingsystems 'RHCOS 8' \
-  --type 'PXELinyx' \
+  --type 'PXELinux' \
   --file rhcos_pxe_template.txt
 
 # Empty Provisioning Template
